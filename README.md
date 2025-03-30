@@ -1,20 +1,16 @@
-<table>
-<img width="441">
-<tr>
-<th>lemcoder</th>
-</tr>
-<tr>
-<td>
-<div>
+<div align="center">
+
 <span>
-<kbd><img  height="150px" src="https://leetcode-badge-sage.vercel.app/badge/lemanski?theme=neutral" alt="Leetcode stats"></kbd>
+<img width="100%">
+</span>
+<span>
+<kbd><img height="150px" src="https://leetcode-badge-sage.vercel.app/badge/lemanski?theme=neutral" alt="Leetcode stats"></kbd>
 </span>
 <span> &nbsp </span>
 <span>
 <kbd>
  
-<img height="0">
-
+<img height=0 >
 
 <pre>
 ____/\\\\\__/\\\\\___            mikolaj@lemanski           
@@ -31,13 +27,9 @@ ____/\\\\\__/\\\\\___            mikolaj@lemanski
 </span>
 
 <p></p>
+
+<span>
 <kbd><img height="150px" width="694" src="https://github-readme-stats.vercel.app/api?username=lemcoder&show_icons=false&theme=transparent&hide_border=true&hide_title=true"></kbd>
+</span> 
 
 </div>
-</td>
-</tr>
-
-</table>
- 
-
-

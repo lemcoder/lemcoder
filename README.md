@@ -1,10 +1,10 @@
 ```basic
-____/\\\\\__/\\\\\___            mikolaj@lemanski           
- __/\\\///\\\\\///\\\_           ---------------- 
-  _\/\\\_\//\\\__\/\\\_          Area: Mobile
-   _\/\\\__\/\\\__\/\\\_         Languages: Kotlin, C
-    _\/\\\__\/\\\__\/\\\_        Host: Cracow, PL
-     _\///___\///___\///__       Uptime: 24y
+   /\\\\  /\\\\\              mikolaj@lemanski           
+   /\\\//\\\\////\            ---------------- 
+   /\\\ //\\\  /\\\           Area: Mobile
+    /\\\  /\\\  /\\\          Languages: Kotlin, C
+     /\\\  /\\\  /\\\         Host: Cracow, PL
+      ///   ///   ///         Uptime: 24y
 ```
 
 <div align="center">

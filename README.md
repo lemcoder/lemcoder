@@ -1,6 +1,6 @@
 ```basic
    /\\\\  /\\\\\              mikolaj@lemanski           
-   /\\\//\\\\////\            ---------------- 
+   /\\\//\\\\//\\\            ---------------- 
    /\\\ //\\\  /\\\           Area: Mobile
     /\\\  /\\\  /\\\          Languages: Kotlin, C
      /\\\  /\\\  /\\\         Host: Cracow, PL

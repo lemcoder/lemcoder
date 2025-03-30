@@ -12,7 +12,7 @@
  
 <img height=0 >
 
-<pre>
+<pre align="left">
 ____/\\\\\__/\\\\\___            mikolaj@lemanski           
  __/\\\///\\\\\///\\\_           ---------------- 
   _\/\\\_\//\\\__\/\\\_          Area: Mobile

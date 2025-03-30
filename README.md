@@ -8,6 +8,6 @@ ____/\\\\\__/\\\\\___            mikolaj@lemanski
 ```
 
 <p float="left">
-<img width=50% src="https://github-readme-stats.vercel.app/api?username=lemcoder&show_icons=false&theme=transparent&hide_border=true&hide_title=true">
-<img width=49% src="https://leetcode-badge-sage.vercel.app/badge/lemanski?theme=neutral" alt="Leetcode stats">
+<kbd><img height="200px" src="https://github-readme-stats.vercel.app/api?username=lemcoder&show_icons=false&theme=transparent&hide_border=true&hide_title=true"></kbd>
+<kbd><img height="200px" src="https://leetcode-badge-sage.vercel.app/badge/lemanski?theme=neutral" alt="Leetcode stats"></kbd>
 </p>

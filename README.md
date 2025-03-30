@@ -1,3 +1,11 @@
+<table>
+<img width="441">
+<tr>
+<th>lemcoder</th>
+</tr>
+<tr>
+<td>
+<div>
 <span>
 <kbd><img  height="150px" src="https://leetcode-badge-sage.vercel.app/badge/lemanski?theme=neutral" alt="Leetcode stats"></kbd>
 </span>
@@ -24,5 +32,12 @@ ____/\\\\\__/\\\\\___            mikolaj@lemanski
 
 <p></p>
 <kbd><img height="150px" width="694" src="https://github-readme-stats.vercel.app/api?username=lemcoder&show_icons=false&theme=transparent&hide_border=true&hide_title=true"></kbd>
+
+</div>
+</td>
+</tr>
+
+</table>
+ 
 
 

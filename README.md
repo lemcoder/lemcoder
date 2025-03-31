@@ -10,7 +10,7 @@
 <div align="center">
 
 <span>
-<img align="left" height="150px" src="https://leetcode-badge-sage.vercel.app/badge/lemanski?theme=neutral" alt="Leetcode stats">
+<img align="left" height="150px" src="https://leetcard.jacoblin.cool/lemanski?theme=transparent&hide=ranking,username" alt="Leetcode stats">
 </span>
 <span>&nbsp</span>
 

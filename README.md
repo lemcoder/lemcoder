@@ -10,7 +10,7 @@
 <div align="center">
 
 <span>
-<img align="left" height="150px" src="https://leetcard.jacoblin.cool/lemanski?theme=transparent&hide=ranking,username" alt="Leetcode stats">
+<img align="left" height="150px" src="https://leetcard.jacoblin.cool/lemanski?theme=nord&font=JetBrains%20Mono&hide=ranking,username" alt="Leetcode stats">
 </span>
 <span>&nbsp</span>
 

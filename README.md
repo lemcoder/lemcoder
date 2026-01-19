@@ -14,7 +14,7 @@
 </span>
 <span>&nbsp</span>
 <span>
-   ## 📊 GitHub Stats
+📊 GitHub Stats
 
 <!-- STATS:START -->
 - ⭐ **Total Stars:** null

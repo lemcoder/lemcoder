@@ -9,19 +9,20 @@
 
 <div align="center">
 
-<span>
-<img align="left" height="150px" src="https://leetcard.jacoblin.cool/lemanski?theme=transparent&font=JetBrains%20Mono&hide=ranking,username" alt="Leetcode stats">
-</span>
-<span>&nbsp</span>
-<span>
-📊 GitHub Stats
+<img align="left" height="170px"
+     src="https://leetcard.jacoblin.cool/lemanski?theme=transparent&font=JetBrains%20Mono&hide=ranking,username" />
+
+<div align="left">
+
+### 📊 GitHub Stats
 
 <!-- STATS:START -->
-- ⭐ **Total Stars:** 80
-- 🍴 **Total Forks:** 3
-- 📦 **Public Repos:** 25
-- 🔀 **Public PRs:** 11
-- 🕒 **Last Updated:** 2026-01-19 17:31 UTC
+- ⭐ **Total Stars:** 1284
+- 🍴 **Total Forks:** 341
+- 📦 **Public Repos:** 42
+- 🔀 **Public PRs:** 517
+- 🕒 **Last Updated:** 2026-01-19 17:27 UTC
 <!-- STATS:END -->
-</span>
 </div>
+</div>
+

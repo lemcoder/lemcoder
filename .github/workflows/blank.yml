@@ -1,0 +1,71 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # every 6 hours
+  workflow_dispatch:
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Fetch, aggregate, and inject stats
+        env:
+          USERNAME: your-github-username
+        run: |
+          set -e
+
+          echo "Fetching repositories..."
+          repos=$(curl -s "https://api.github.com/users/$USERNAME/repos?per_page=100")
+
+          repo_count=$(echo "$repos" | jq 'length')
+          total_stars=$(echo "$repos" | jq '[.[].stargazers_count] | add')
+          total_forks=$(echo "$repos" | jq '[.[].forks_count] | add')
+
+          echo "Fetching PR count..."
+          pr_count=$(curl -s \
+            "https://api.github.com/search/issues?q=author:$USERNAME+type:pr" \
+            | jq '.total_count')
+
+          updated=$(date -u +"%Y-%m-%d %H:%M UTC")
+
+          echo "Rendering Markdown..."
+          stats_md=$(cat <<EOF
+          - ⭐ **Total Stars:** $total_stars
+          - 🍴 **Total Forks:** $total_forks
+          - 📦 **Public Repos:** $repo_count
+          - 🔀 **Public PRs:** $pr_count
+          - 🕒 **Last Updated:** $updated
+          EOF
+          )
+
+          echo "Injecting into README.md..."
+          awk -v content="$stats_md" '
+          /<!-- STATS:START -->/ {
+            print
+            print content
+            skip=1
+            next
+          }
+          /<!-- STATS:END -->/ {
+            skip=0
+          }
+          !skip
+          ' README.md > README.tmp
+
+          mv README.tmp README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Update GitHub stats" || exit 0
+          git push

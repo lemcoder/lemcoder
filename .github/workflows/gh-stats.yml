@@ -18,7 +18,7 @@ jobs:
 
       - name: Fetch, aggregate, and inject stats
         env:
-          USERNAME: your-github-username
+          USERNAME: lemcoder
         run: |
           set -e
 

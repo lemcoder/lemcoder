@@ -14,9 +14,4 @@
 </span>
 <span>&nbsp</span>
 
-
-<span>
-<img align="right" height="165px" width="400px" src="https://github-readme-stats-gamma-azure-11.vercel.app/api?username=lemcoder&show_icons=false&theme=transparent&hide_border=true&hide_title=true&hide=issues">
-</span> 
-
 </div>

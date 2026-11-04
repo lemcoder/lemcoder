@@ -4,7 +4,7 @@
    /\\\ //\\\  /\\\           Area: Mobile
     /\\\  /\\\  /\\\          Languages: Kotlin, C
      /\\\  /\\\  /\\\         Host: Cracow, PL
-      ///   ///   ///         Uptime: 25y
+      ///   ///   ///         Uptime: 26y
 ```
 
 <div align="center">
